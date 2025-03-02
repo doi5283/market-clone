@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>당근마켓</title>
+    <link rel="stylesheet" href="/css/sytle.css" />
+  </head>
+  <body>
+    <header>
+      <div class="left">
+        <button class="btn icon prev">뒤로가기</button>
+
+        <div class="menu-info-grp">
+          <div class="info-name">
+            <span class="name">슬기맘</span>
+            <span class="temperature">36.5℃</span>
+          </div><!--info-name-->
+          <div class="response">
+            보통 <span id="responseNum">1</span>시간 이내 응답
+          </div>
+        </div><!--menu-info-grp-->
+      </div><!--left-->
+
+      <div clss="right">
+        <button type="button" class="btn icon call">통화하기</button>
+        <button type="button" class="btn icon more">더보기</button>
+      </div><!--right-->
+    </header><!--header-->
+    <section class="con-message">
+      <div class="selected-info-box">
+        <div class="imgbox"><img src="" alt="선택한 제품"></div>
+        <div class="titlebox">
+          <div class="title">유모차 팔아요.</div>
+          <div class="price">50,000원</div>
+        </div>
+      </div>
+      <div class="messages-box">
+        <div class="message me">
+          <div class="imgbox"><img src="" alt="프로필"></div>
+          <div class="txt">오늘 시민공원 근처에서 7시에 가능하신가요?</div>
+          <span class="time">오후 3:45</span>
+        </div>
+        <div class="message other">
+          <div class="imgbox"><img src="" alt="상대 프로필"></div>
+          <div class="txt">네 가능해요 그때 봐요!</div>
+          <span class="time">오후 3:46</span>
+        </div>
+        <div class="message-deal">
+          <div class="date-box">
+            <div class="inner">
+              <div class="date">4월 28일 (수) 오후 7:00</div>
+              <div class="txt-deal">슬기맘님이 거래 약속을 설정했어요.</div>
+            </div>
+          </div>
+          <div class="message-notice">약속 시간 30분 전에 슬기맘님에게 알림이 울릴 거예요.</div>
+        </div><!--message-deal-->
+      </div>
+    </section><!--con-message-->
+    <div class="chat-box">
+      <button class="btn icon plus">more</button>
+      <div class="chat-input-box">
+        <label for="chatInput" class="visual-hidden">메세지 입력</label>
+        <input type="text" id="chatInput" class="chat-input" placeholder="메세지를 입력하세요.">
+        <button type="button" class="btn icon emoji">emoji</button>
+        <button type="submit" class="btn icon send">send</button>
+      </div><!--chat-input-box-->
+    </div><!--chat-box-->
+  </body>
+</html>
